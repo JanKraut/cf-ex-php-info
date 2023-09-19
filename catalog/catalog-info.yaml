@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cf-ex-php-info
+  description: cf-ex-php-info
+  tags:
+    - app-accelerator
+    - java
+    - spring
+    - web
+    - tanzu
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=cf-ex-php-info'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team
